@@ -1,4 +1,4 @@
-package com.pattern.factory;
+package com.pattern.simple_factory;
 
 public class OperationSub implements Operation{
     @Override

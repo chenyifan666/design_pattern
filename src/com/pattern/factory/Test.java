@@ -1,11 +1,10 @@
 package com.pattern.factory;
 
 public class Test {
-    public static void main(String[] args){
-        String sign = "*";
-        int num1 = 20;
-        int num2 = 16;
-        Operation operation = OperationFactory.createOperation(sign);
-        System.out.println(operation.operator(num1,num2));
+    public static void main(String[] args) {
+        Factory factory = new VolunteerFactory();
+
+        LeiFeng leiFeng1 = factory.createInOperation();
+        leiFeng1.buy();
     }
 }
