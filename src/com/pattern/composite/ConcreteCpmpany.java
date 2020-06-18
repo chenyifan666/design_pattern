@@ -1,4 +1,4 @@
-package com.pattern.Composite;
+package com.pattern.composite;
 
 public class ConcreteCpmpany extends Company{
     public ConcreteCpmpany(String name) {

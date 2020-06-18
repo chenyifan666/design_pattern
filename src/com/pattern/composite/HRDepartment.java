@@ -1,4 +1,4 @@
-package com.pattern.Composite;
+package com.pattern.composite;
 
 public class HRDepartment extends Company{
     public HRDepartment(String name) {

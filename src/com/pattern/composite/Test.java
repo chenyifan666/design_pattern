@@ -1,4 +1,4 @@
-package com.pattern.Composite;
+package com.pattern.composite;
 
 public class Test {
     public static void main(String[] args) {

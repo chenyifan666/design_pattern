@@ -1,4 +1,4 @@
-package com.pattern.Composite;
+package com.pattern.composite;
 
 public class FinanceDepartment extends Company{
     public FinanceDepartment(String name) {
